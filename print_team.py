@@ -5,7 +5,7 @@ ids = []
 
 for line in f:
  args = line.split(' ')
- names.append(args[0])
+ names.append(args[1])
  ids.append(args[0])
 
 
